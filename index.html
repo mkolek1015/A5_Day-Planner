@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/ecd6813fb0.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./style2.css">
-
+    <!-- <script src="https://kit.fontawesome.com/ecd6813fb0.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="./assests/style.css">
+    <link rel="stylesheet" href="./assests/style2.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src='./assests/script.js'></script>
     <title>MKolek Day Planner</title>
     
 </head>
@@ -16,7 +17,7 @@
         <div class="header-text">
               <h1 id="navbar-title">Work Day Planner</h1>
               <h2 id="navbar-subtitle"><input type="date"></h2>
-              <h2 var="moment"></h2>
+              <h2 id="navbar-subtitle"></h2>
         </div>
       </nav>
     <div> 
@@ -186,10 +187,25 @@
             </div>
         </div>
         </form>
+    <!-- 11 pm Window
+    <form id='formPlanner'>
+        <div class="row plannerRow" hour-index="11" style="background-color: lightgrey;">
+                <div class="col-md-2">
+                    <span class="timeBox">11 pm</span>
+                </div>
+            <div class="col-md-9">
+                    <input id="input-0" hour-index="0" type="text" class="dailyPlan">
+            </div>
+            <div class="col-md-1">
+                <i id="saveid-0" save-id="0" class="far fa-save saveIcon" aria-hidden="true">
+                </i>
+            </div>
+        </div>
+        </form>
             
            
     </div>
-        </form>
+        </form> -->
 
 
     <!-- Start Footer -->
@@ -199,7 +215,6 @@
 
 
     <!-- read in javascript file  -->
-  <script src='script.js'></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  
 </body>
 </html>
